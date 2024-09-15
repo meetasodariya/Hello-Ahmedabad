@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/ahmedabad-icon1.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="loginStyle.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <title>Registration form</title>
+</head>
+
+<body>
+  <!-- TOP NAVIGATION -->
+  <header class="login-nav">
+    <img src="img/logo1.png" alt="Logo" class="logo zoom" />
+    <article class="login-heading">
+      <h1 class="welcome">Register to get started</h1>
+      <!-- <div class="tooltip"> <img class="hint-icon" src="https://img.icons8.com/ios/50/000000/questions.png" /> -->
+        <!-- <article class="tooltiptext">
+          <p>Username: <span>ww</span></p>
+          <p>Password: <span>1111</span></p>
+        </article>
+      </div> -->
+    </article>
+    <form class="login" id="form">
+      <input type="text" placeholder="User Name" id="name" class="login__input login__input--user" />
+      <input type="email" placeholder="Email" id="mail" class="login__input login__input--user" />
+      <input type="password" placeholder="password" id="pass" class="login__input login__input--password" onclick=""/>
+      <label style="font-size: 15px;"><input type="checkbox" onclick="show()"/>show password</label>
+      <input type="password" placeholder=" Confirm password" id="cpass" class="login__input login__input--password" />
+      <button type="submit" class="btn" id="btn">Register</button>
+      <p class="warning-text"></p>
+    </form>
+
+    <a class="back-to-main" href="/index.html">Back to main</a>
+
+  </header>
+
+  <script src="loginScript.js"></script>
+</body>
+
+</html>

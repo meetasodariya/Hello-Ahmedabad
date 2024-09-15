@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/ahmedabad-icon1.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="loginStyle.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <title>City Guider</title>
+</head>
+
+<body>
+  <!-- TOP NAVIGATION -->
+  <header class="login-nav">
+    <img src="img/logo1.png" alt="Logo" class="logo zoom" />
+    <article class="login-heading">
+      <h1 style="font-size: xx-large; font-family:cursive;">City Guider Form</h1>
+      <!-- <div class="tooltip"> <img class="hint-icon" src="https://img.icons8.com/ios/50/000000/questions.png" /> -->
+        <!-- <article class="tooltiptext">
+          <p>Username: <span>ww</span></p>
+          <p>Password: <span>1111</span></p>
+        </article>
+      </div> -->
+    </article>
+    <form class="login" id="form">
+      <input type="text" placeholder="User Name" id="name" class="login__input login__input--user" />
+      <input type="email" placeholder="User Email" id="mail" class="login__input login__input--user" />
+      <input type="text" maxlength="10" placeholder="User Conatact No" id="con" class="login__input login__input--user" />
+      <select name="lan" id="se" class="login__input login__input" required="required">
+      <option value="lang" disabled selected>Select Preffered Languge</option>
+      <option value="eng">English</option>
+      <option value="kan">Kannad</option>
+      <option value="fre">French</option>
+      </select>
+      <!-- <input type="text" placeholder="Company Website(If Any)" id="web" class="login__input login__input--user" /> -->
+      
+      <!-- <div style="font-size: medium; font-weight: 800;">Suggestions Or Comments:</div> -->
+
+      <!-- <textarea name="sug" id="adr" cols="20" rows="5" class="login__input login__input--text" placeholder="Business Pemanent Address"></textarea> -->
+      <textarea name="sug" id="prm" cols="20" rows="5" class="login__input login__input--text" placeholder="Any other Requirement"></textarea>
+      <!-- <input type="password" placeholder="password" id="pass" class="login__input login__input--password" onclick=""/> --> 
+      <!-- <label style="font-size: 15px;"><input type="checkbox" onclick="show()"/>show password</label> -->
+      <!-- <input type="password" placeholder=" Confirm password" id="cpass" class="login__input login__input--password" /> -->
+      <button type="submit" class="btn" id="btn">Submit</button>
+      <p class="warning-text"></p>
+    </form>
+
+    <a class="back-to-main" href="/home.html">Back to main</a>
+
+  </header>
+
+  <script src="cg.js"></script>
+</body>
+
+</html>

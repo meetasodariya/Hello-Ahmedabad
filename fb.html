@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/ahmedabad-icon1.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="loginStyle.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <title>Feedback</title>
+</head>
+
+<body>
+  <!-- TOP NAVIGATION -->
+  <header class="login-nav">
+    <img src="img/logo1.png" alt="Logo" class="logo zoom" />
+    <article class="login-heading">
+      <h1 style="font-size: xx-large; font-family:cursive;">Feedback Form</h1>
+      <!-- <div class="tooltip"> <img class="hint-icon" src="https://img.icons8.com/ios/50/000000/questions.png" /> -->
+        <!-- <article class="tooltiptext">
+          <p>Username: <span>ww</span></p>
+          <p>Password: <span>1111</span></p>
+        </article>
+      </div> -->
+    </article>
+    <form class="login" id="form">
+      <input type="text" placeholder="User Name" id="name" class="login__input login__input--user" />
+      <input type="email" placeholder="Email" id="mail" class="login__input login__input--user" />
+      <h5 style="font-size: medium;">How do you feel about this page?</h5>
+      <div style="font-size: medium;">
+      <label style="padding: 3rem; font-weight: 800;">content?</label>
+      <input type="radio" id="html1" name="fav_language1" value="HTML">
+      <label for="html" style="padding-right: 3rem;">Poor</label>
+      <input type="radio" id="css1" name="fav_language1" value="CSS">
+      <label for="css" style="padding-right: 3rem;">Average</label>
+      <input type="radio" id="javascript1" name="fav_language1" value="JavaScript">
+      <label for="css" style="padding-right: 3rem;">Good</label>
+      <input type="radio" id="javascript1" name="fav_language1" value="JavaScript">
+      <label for="javascript" style="padding-right: 3rem;">Excellent</label>
+      </div>
+      <div style="font-size: medium;">
+      <label style="padding: 3rem; font-weight: 800;">Design?</label>
+      <input type="radio" id="html2" name="fav_language2" value="HTML">
+      <label for="html" style="padding-right: 3rem;">Poor</label>
+      <input type="radio" id="css2" name="fav_language2" value="CSS">
+      <label for="css" style="padding-right: 3rem;">Average</label>
+      <input type="radio" id="javascript2" name="fav_language2" value="JavaScript">
+      <label for="css" style="padding-right: 3rem;">Good</label>
+      <input type="radio" id="javascript2" name="fav_language2" value="JavaScript">
+      <label for="javascript" style="padding-right: 3rem;">Excellent</label>
+      </div>
+      <div style="font-size: medium;">
+      <label style="padding: 3rem; font-weight: 800;">Usefull?</label>
+      <input type="radio" id="html3" name="fav_language3" value="HTML">
+      <label for="html" style="padding-right: 3rem;">Poor</label>
+      <input type="radio" id="css3" name="fav_language3" value="CSS">
+      <label for="css" style="padding-right: 3rem;">Average</label>
+      <input type="radio" id="javascript3" name="fav_language3" value="JavaScript">
+      <label for="css" style="padding-right: 3rem;">Good</label>
+      <input type="radio" id="javascript3" name="fav_language3" value="JavaScript">
+      <label for="javascript" style="padding-right: 3rem;">Excellent</label>
+      </div>
+      <div style="font-size: medium;">
+      <label style="padding: 3rem; font-weight: 800;">Overall?</label>
+      <input type="radio" id="html4" name="fav_language4" value="HTML">
+      <label for="html" style="padding-right: 3rem;">Poor</label>
+      <input type="radio" id="css4" name="fav_language4" value="CSS">
+      <label for="css" style="padding-right: 3rem;">Average</label>
+      <input type="radio" id="javascript4" name="fav_language4" value="JavaScript">
+      <label for="css" style="padding-right: 3rem;">Good</label>
+      <input type="radio" id="javascript4" name="fav_language4" value="JavaScript">
+      <label for="javascript" style="padding-right: 3rem;">Excellent</label>
+      </div>
+      <!-- <div style="font-size: medium; font-weight: 800;">Suggestions Or Comments:</div> -->
+
+      <textarea name="sug" id="sgs" cols="20" rows="5" class="login__input login__input--text" placeholder="Your Suggestion Or Comment"></textarea>
+      <!-- <input type="password" placeholder="password" id="pass" class="login__input login__input--password" onclick=""/> --> 
+      <!-- <label style="font-size: 15px;"><input type="checkbox" onclick="show()"/>show password</label> -->
+      <!-- <input type="password" placeholder=" Confirm password" id="cpass" class="login__input login__input--password" /> -->
+      <button type="submit" class="btn" id="btn">Submit</button>
+      <p class="warning-text"></p>
+    </form>
+
+    <a class="back-to-main" href="/home.html">Back to main</a>
+
+  </header>
+
+  <script src="fb.js"></script>
+</body>
+
+</html>
